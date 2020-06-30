@@ -1,0 +1,154 @@
+div
+{
+    border-radius: 5px;
+}
+.intro
+{
+    display: block;
+    border: 4px solid lightsteelblue;
+    text-align: center;
+}
+#header
+{
+
+    padding: 0px;
+    position: relative;
+
+    width: 100%;
+    background-color: darkslategray;
+}
+.fa-star
+{
+    color:goldenrod;
+}
+.fa-briefcase
+{
+    color:saddlebrown;
+}
+#name1
+{
+    font-size: 60px;
+    font-family: "Yu Gothic UI Semibold";
+    font-color: white;
+}
+#email
+{
+    float:right;
+    margin-bottom: 30px;
+    margin-right: 80vw;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    font-family: Verdana, sans-serif;
+    color: white;
+    display: block;
+
+}
+#contact
+{
+    margin-left:45%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.right
+{
+    margin: 0%;
+
+    padding-left:0%;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+/*.left
+{
+    float: left;
+    margin-top: 50px;
+    /*margin-right: -90px;
+    height: relative;
+    width: 10%;
+    background-color: #4160E8;
+    }*/
+
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #C1E3E1;
+}
+
+h3
+{
+    text-decoration: underline;
+}
+
+#job-responsibilities
+{
+    padding: 1px;
+}
+.job-title
+{
+    font-weight: bold;
+}
+table
+{
+    border: 2px black;
+}
+td
+{
+    padding: 2px;
+    border: 3px solid darkslategray;
+}
+
+#course-name
+{
+    font-weight:bold;
+}
+#outer-list {
+    list-style: none;
+}
+.my-list
+{
+    font-family: "Yu Gothic UI Semibold";
+    font-size: 20px;
+
+}
+#outer-list .my-list {
+    padding-bottom: 40px;
+    position:relative
+}
+
+#outer-list .my-list .list-bullet {
+    border-radius: 40%;
+    border: 1px darkslategray;
+    padding: 10px;
+}
+#outer-list .my-list .list-bullet :before{
+    content:'|';
+    position:absolute;
+    border-left:4px solid ;
+    left:14px;
+    bottom:0;
+    z-index:-1;
+    height:100%
+}
+
+#outer-list .my-list :last-child .list-bullet:before{
+    content:none;
+}
+#outer-list .my-list:last-child{
+    padding-bottom:0
+}
+.sub-lists
+{
+    margin-left: 4em;
+}

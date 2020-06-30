@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CV_US:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/CV_US_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="CV_US/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CV_US" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
